@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*
+font-family: 'Amatic SC', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/header-background.png);
+}
+
+.main .main-navbar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+}
+
+.main .main-navbar .main-navbar-logo .dog-food-img{
+    width: 14rem;
+}
+
+.main .main-navbar .main-navbar-menu ul {
+    display: inline-flex;    
+    
+}
+
+.main .main-navbar .main-navbar-menu a {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-left: 3rem;
+}
+
+.main .main-information {
+    display: flex;
+}
+
+.main .main-information .main-information-food .main-information-food-img {
+    width: 25rem;
+}
+
+.main .main-information .main-information-slogan {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.main .main-information .main-information-slogan h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+    line-height: 3.4rem;
+    text-align: center;
+    color: #4C3135;
+}
+
+.main .main-information .main-information-slogan span {
+    color: #016BA5;
+    font-weight: 70;
+  
+}
+
+
+
+.main .main-information .main-information-dog .main-information-dog-img {
+    position: absolute;
+    right: -2.5rem;
+    bottom: 8rem;
+    width: 25rem;
+}
+
