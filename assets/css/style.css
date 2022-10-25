@@ -15,6 +15,7 @@ font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     background-image: url(../img/header-background.png);
+    width: 100vw;
 }
 
 .main .main-navbar {
@@ -24,13 +25,13 @@ font-family: 'Montserrat', sans-serif;
     padding: 1.5rem 3rem;
 }
 
-.main .main-navbar .main-navbar-logo .dog-food-img{
+.main .main-navbar .main-navbar-logo .dog-food-img {
     width: 14rem;
 }
 
 .main .main-navbar .main-navbar-menu ul {
-    display: inline-flex;    
-    
+    display: inline-flex;
+
 }
 
 .main .main-navbar .main-navbar-menu a {
@@ -43,14 +44,16 @@ font-family: 'Montserrat', sans-serif;
 /*----------------------------------------*/
 
 .main .main-information {
-    display: flex;
-    padding-bottom: 26.2rem;
+    padding: 1rem 0 25.7rem 0;
+    position: relative;
+    overflow: hidden;
 }
 
 .main .main-information .main-information-food .main-information-food-img {
     width: 30rem;
     position: absolute;
     top: 9.375rem;
+    
 }
 
 .main .main-information .main-information-slogan h1 {
@@ -73,7 +76,7 @@ font-family: 'Montserrat', sans-serif;
     position: absolute;
     transform: rotate(330deg);
     right: 29rem;
-    top: 11rem;
+    top: 5rem;
 }
 
 .main .main-information .main-information-slogan .main-information-slogan-idea-1 .main-information-slogan-img-1 {
@@ -83,7 +86,7 @@ font-family: 'Montserrat', sans-serif;
 .main .main-information .main-information-slogan .main-information-slogan-idea-2 {
     position: absolute;
     transform: rotate(360deg);
-    top: 15rem;
+    top: 9rem;
     right: 24.5rem;
 }
 
@@ -93,7 +96,7 @@ font-family: 'Montserrat', sans-serif;
 
 .main .main-information .main-information-slogan .main-information-slogan-idea-3 {
     position: absolute;
-    top: 17.5rem;
+    top: 11.5rem;
     right: 33rem;
     width: 16rem;
     transform: rotate(350deg);
@@ -108,13 +111,15 @@ font-family: 'Montserrat', sans-serif;
     line-height: 3.4rem;
 }
 
-.main .main-information .main-information-dog .main-information-dog-img {
+.main .main-information .main-information-dog {
     position: absolute;
-    right: -2.8rem;
-    bottom: 7rem;
+    left: 62rem;
+}
+
+.main .main-information .main-information-dog .main-information-dog-img {
     width: 26rem;
 }
 
-
+/*--------------------------------------*/
 
 
