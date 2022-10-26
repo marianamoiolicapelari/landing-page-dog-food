@@ -45,19 +45,20 @@ font-family: 'Montserrat', sans-serif;
     color: rgb(216, 216, 216);
 }
 
+/*--------------------------------------*/
+
+.wrapper .food-dog .food-dog-img {
+    width: 30rem;
+    position: absolute;
+    top: 9.375rem;
+}
+
 /*----------------------------------------*/
 
 .wrapper .main .main-information {
     padding: 1rem 0 25.7rem 0;
     position: relative;
     overflow: hidden;
-}
-
-.wrapper .main .main-information .main-information-food .main-information-food-img {
-    width: 30rem;
-    position: absolute;
-    top: 9.375rem;
-    
 }
 
 .wrapper .main .main-information .main-information-slogan h1 {
@@ -131,7 +132,7 @@ font-family: 'Montserrat', sans-serif;
     justify-content: space-around;
     background-color: #FFF;
     padding: 6rem 0 3rem 0;
-   
+
 }
 
 .wrapper .story .story-title {
@@ -163,7 +164,7 @@ font-family: 'Montserrat', sans-serif;
 .wrapper .story .story-paragraph a {
     color: #016BA5;
     font-weight: bold;
-    
+
 }
 
 .wrapper .story .story-img img {
@@ -201,6 +202,16 @@ font-family: 'Montserrat', sans-serif;
 }
 
 /*---------------------------------*/
+
+.detail-dog .detail-dog-img {
+    width: 5rem;
+    position: absolute;
+    top: 82.5rem;
+    left: 71rem;
+    transform: rotate(345deg);
+}
+
+/*----------------------------------------*/
 
 .wrapper .description {
     display: flex;
@@ -249,19 +260,44 @@ font-family: 'Montserrat', sans-serif;
 
 /*------------------------------------*/
 
+.wrapper .dog-jumping .dog-jumping-img{
+    position: absolute;
+    width: 15rem;
+    top: 104rem;
+left: 33rem;
+}
+
+/*------------------------------------*/
+
 .wrapper .search {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #e6e4e4;
     padding: 5rem;
 }
 
 .wrapper .search .search-breeds h2 {
     font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.wrapper .search .search-breeds input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    margin-bottom: 3rem;
+    height: 2.5rem;
+    padding-left: 1rem;
+    border-bottom: solid 1px #6C6C6C;
+}
+
+.wrapper .search .search-breeds input::placeholder {
+    font-size: 1.5rem;
 }
 
 .wrapper .search .search-breeds button {
-    width: 45%;
+    width: 50%;
     padding: 1rem;
     border: none;
     background-color: #016BA5;
@@ -271,14 +307,21 @@ font-family: 'Montserrat', sans-serif;
 
 .wrapper .search .search-dogs h2 {
     font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
 .wrapper .search .search-dogs p {
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #6C6C6C;;
+    margin-bottom: 3rem;
+    width: 28rem;
 }
 
 .wrapper .search .search-dogs button {
-    width: 45%;
+    width: 35%;
     padding: 1rem;
     border: none;
     background-color: #016BA5;
@@ -327,11 +370,10 @@ font-family: 'Montserrat', sans-serif;
 
 .wrapper .footer .footer-social-media {
     display: flex;
-    
+
 }
 
-.wrapper .footer .footer-social-media img{
+.wrapper .footer .footer-social-media img {
     width: 3rem;
-    
-}
 
+}
