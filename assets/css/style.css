@@ -11,52 +11,56 @@ font-family: 'Amatic SC', cursive;
 font-family: 'Montserrat', sans-serif;
 */
 
-.main {
+.wrapper .main {
     display: flex;
     flex-direction: column;
     background-image: url(../img/header-background.png);
     width: 100vw;
 }
 
-.main .main-navbar {
+.wrapper .main .main-navbar {
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 3rem;
 }
 
-.main .main-navbar .main-navbar-logo .dog-food-img {
+.wrapper .main .main-navbar .main-navbar-logo .dog-food-img {
     width: 14rem;
 }
 
-.main .main-navbar .main-navbar-menu ul {
+.wrapper .main .main-navbar .main-navbar-menu ul {
     display: inline-flex;
 
 }
 
-.main .main-navbar .main-navbar-menu a {
+.wrapper .main .main-navbar .main-navbar-menu a {
     color: #FFF;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     margin-left: 3rem;
 }
 
+.wrapper .main .main-navbar .main-navbar-menu a:hover {
+    color: rgb(216, 216, 216);
+}
+
 /*----------------------------------------*/
 
-.main .main-information {
+.wrapper .main .main-information {
     padding: 1rem 0 25.7rem 0;
     position: relative;
     overflow: hidden;
 }
 
-.main .main-information .main-information-food .main-information-food-img {
+.wrapper .main .main-information .main-information-food .main-information-food-img {
     width: 30rem;
     position: absolute;
     top: 9.375rem;
     
 }
 
-.main .main-information .main-information-slogan h1 {
+.wrapper .main .main-information .main-information-slogan h1 {
     position: absolute;
     right: 32.5rem;
     font-family: 'Amatic SC', cursive;
@@ -67,34 +71,34 @@ font-family: 'Montserrat', sans-serif;
     width: 17rem;
 }
 
-.main .main-information .main-information-slogan span {
+.wrapper .main .main-information .main-information-slogan span {
     color: #016BA5;
     font-weight: bold;
 }
 
-.main .main-information .main-information-slogan .main-information-slogan-idea-1 {
+.wrapper .main .main-information .main-information-slogan .main-information-slogan-idea-1 {
     position: absolute;
     transform: rotate(330deg);
     right: 29rem;
     top: 5rem;
 }
 
-.main .main-information .main-information-slogan .main-information-slogan-idea-1 .main-information-slogan-img-1 {
+.wrapper .main .main-information .main-information-slogan .main-information-slogan-idea-1 .main-information-slogan-img-1 {
     width: 23.75rem;
 }
 
-.main .main-information .main-information-slogan .main-information-slogan-idea-2 {
+.wrapper .main .main-information .main-information-slogan .main-information-slogan-idea-2 {
     position: absolute;
     transform: rotate(360deg);
     top: 9rem;
     right: 24.5rem;
 }
 
-.main .main-information .main-information-slogan .main-information-slogan-idea-2 .main-information-slogan-img-2 {
+.wrapper .main .main-information .main-information-slogan .main-information-slogan-idea-2 .main-information-slogan-img-2 {
     width: 31rem;
 }
 
-.main .main-information .main-information-slogan .main-information-slogan-idea-3 {
+.wrapper .main .main-information .main-information-slogan .main-information-slogan-idea-3 {
     position: absolute;
     top: 11.5rem;
     right: 33rem;
@@ -102,7 +106,7 @@ font-family: 'Montserrat', sans-serif;
     transform: rotate(350deg);
 }
 
-.main .main-information .main-information-slogan .main-information-slogan-idea-3 h2 {
+.wrapper .main .main-information .main-information-slogan .main-information-slogan-idea-3 h2 {
     font-family: 'Amatic SC', cursive;
     color: #016BA5;
     font-size: 3.7rem;
@@ -111,15 +115,223 @@ font-family: 'Montserrat', sans-serif;
     line-height: 3.4rem;
 }
 
-.main .main-information .main-information-dog {
+.wrapper .main .main-information .main-information-dog {
     position: absolute;
     left: 62rem;
 }
 
-.main .main-information .main-information-dog .main-information-dog-img {
+.wrapper .main .main-information .main-information-dog .main-information-dog-img {
     width: 26rem;
 }
 
 /*--------------------------------------*/
 
+.wrapper .story {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFF;
+    padding: 6rem 0 3rem 0;
+   
+}
+
+.wrapper .story .story-title {
+    width: 6.25rem;
+    line-height: 3rem;
+}
+
+.wrapper .story .story-title h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #4C3135;
+    font-size: 2rem;
+
+}
+
+.wrapper .story .story-title span {
+    color: #016BA5;
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.wrapper .story .story-paragraph p {
+    width: 400px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: 6C6C6C;
+    padding-bottom: 0.6rem;
+}
+
+.wrapper .story .story-paragraph a {
+    color: #016BA5;
+    font-weight: bold;
+    
+}
+
+.wrapper .story .story-img img {
+    width: 16rem;
+}
+
+/*-----------------------------------*/
+
+.wrapper .food {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/chicken-background.png);
+    background-size: cover;
+    color: #FFF;
+    padding: 4rem;
+}
+
+.wrapper .food h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+    line-height: 1.5rem;
+}
+
+.wrapper .food h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 4.5rem;
+}
+
+.wrapper .food p {
+    font-family: 'Montserrat', sans-serif;
+    width: 700px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/*---------------------------------*/
+
+.wrapper .description {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem;
+}
+
+.wrapper .description .description-itens {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    color: #4C3135;
+}
+
+.wrapper .description .description-itens h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.wrapper .description .description-itens p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.wrapper .description .description-itens button {
+    width: 25%;
+    padding: 1rem;
+    border: none;
+    background-color: #016BA5;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.wrapper .description .description-itens button:hover {
+    background-color: #2d9bd6;
+
+}
+
+.wrapper .description .description-image img {
+    width: 20rem;
+}
+
+/*------------------------------------*/
+
+.wrapper .search {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e6e4e4;
+    padding: 5rem;
+}
+
+.wrapper .search .search-breeds h2 {
+    font-family: 'Amatic SC', cursive;
+}
+
+.wrapper .search .search-breeds button {
+    width: 45%;
+    padding: 1rem;
+    border: none;
+    background-color: #016BA5;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.wrapper .search .search-dogs h2 {
+    font-family: 'Amatic SC', cursive;
+}
+
+.wrapper .search .search-dogs p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper .search .search-dogs button {
+    width: 45%;
+    padding: 1rem;
+    border: none;
+    background-color: #016BA5;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/*------------------------------------*/
+
+.wrapper .products {
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem;
+}
+
+.wrapper .products .products-img img {
+    width: 10rem;
+}
+
+.wrapper .products .products-itens h2 {
+    font-family: 'Amatic SC', cursive;
+}
+
+.wrapper .products .products-itens p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper .products .products-itens button {
+    width: 25%;
+    padding: 1rem;
+    border: none;
+    background-color: #016BA5;
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+/*-----------------------*/
+
+.wrapper .footer {
+    background-image: url(../img/Layer.png);
+    background-size: cover;
+    padding: 30rem;
+    margin: 2rem;
+}
+
+.wrapper .footer .footer-social-media {
+    display: flex;
+    
+}
+
+.wrapper .footer .footer-social-media img{
+    width: 3rem;
+    
+}
 
