@@ -6,11 +6,15 @@
     text-decoration: none;
 }
 
+.wrapper {
+    width: 100%;
+}
+
 .wrapper .main {
     display: flex;
     flex-direction: column;
     background-image: url(../img/header-background.png);
-    width: 100vw;
+    background-size: 100%;
 }
 
 .wrapper .main .main-navbar {
@@ -45,7 +49,7 @@
 .wrapper .food-dog .food-dog-img {
     width: 30rem;
     position: absolute;
-    top: 9.375rem;
+    top: 10rem;
 }
 
 /*----------------------------------------*/
@@ -180,10 +184,10 @@
 
 .wrapper .dog-atention-detail .dog-atention-detail-img {
     position: absolute;
-    width: 10rem;
-    transform: rotate(100deg);
+    width: 9rem;
+    transform: rotate(97deg);
     top: 60rem;
-    left: 7rem;
+    left: 6rem;
 }
 
 /*-----------------------------------*/
@@ -278,7 +282,7 @@
 .wrapper .dog-jumping .dog-jumping-img {
     position: absolute;
     width: 15.5rem;
-    top: 104rem;
+    top: 104.3rem;
     left: 33rem;
 }
 
@@ -287,7 +291,7 @@
 .wrapper .search {
     display: flex;
     justify-content: space-between;
-    background-color: #e6e4e4;
+    background-color: #eeeff0;
     padding: 5rem;
 }
 
@@ -311,15 +315,13 @@
     font-size: 1.5rem;
 }
 
-/*------------------------------------*/
-
-.search-breeds span {
+.wrapper .search .search-breeds span {
     position: absolute;
     top: 120rem;
     left: 28rem;
 }
 
-.search-breeds span img {
+.wrapper .search .search-breeds span img {
     width: 1.5rem;
 }
 
@@ -343,7 +345,6 @@
     font-size: 1.1rem;
     font-weight: 600;
     color: #6C6C6C;
-    ;
     margin-bottom: 3rem;
     width: 28rem;
 }
@@ -363,7 +364,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 6rem 5rem 5rem 5rem;
+    padding: 6rem 5rem 1rem 5rem;
 }
 
 .wrapper .products .products-img img {
@@ -397,26 +398,63 @@
 
 .wrapper .footer {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content:flex-end;
+    align-items:flex-end;
     background-image: url(../img/Layer.png);
     background-size: cover;
+    background-position: 0rem;
     margin: 2rem;
-
-
+    height: 31.25rem;
 }
 
-
-.wrapper .footer .footer-dog-informations img {
-    width: 30rem;
+.wrapper .footer .footer-dog-informations {
+    display: flex;
+    flex-direction: column;
+    color: #4C3135;
+    font-weight: bold;
+    margin: 0 2rem 2rem 0;
+    width: 25rem;
+    font-family: 'Montserrat', sans-serif;
 }
+
+.wrapper .footer .footer-dog-informations .footer-dog-informations-img-idea img {
+    width: 20rem;
+    position: absolute;
+    top: 166rem;
+    left: 40rem;
+    transform: rotate(395deg);
+}
+
+.wrapper .footer .footer-dog-informations .footer-dog-informations-img-logo img {
+    width: 13rem;
+    position: absolute;
+    top: 172rem;
+    left: 42.5rem;
+}
+
+.wrapper .footer .footer-dog-informations .footer-dog-informations-ul ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper .footer .footer-dog-informations .footer-dog-informations-ul a {
+    font-size: 1.2rem;
+    color: #4C3135;
+    padding-right: 2rem;
+    margin-bottom: 0.8rem;
+ }
+
+.wrapper .footer .footer-dog-informations .footer-dog-informations-p  {
+    padding-top: 1rem;
+ }
 
 
 .wrapper .footer .footer-social-media {
-    display: flex;
+   margin: 1.5rem 2rem;
+ 
 }
 
 .wrapper .footer .footer-social-media img {
-    width: 2rem;
-    margin: 0.3rem;
+    width: 1.5rem;
+    margin-left: 0.5rem;
 }
