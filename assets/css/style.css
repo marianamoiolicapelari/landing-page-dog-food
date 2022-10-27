@@ -6,11 +6,6 @@
     text-decoration: none;
 }
 
-/*
-font-family: 'Amatic SC', cursive;
-font-family: 'Montserrat', sans-serif;
-*/
-
 .wrapper .main {
     display: flex;
     flex-direction: column;
@@ -129,7 +124,7 @@ font-family: 'Montserrat', sans-serif;
 
 .wrapper .story {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     background-color: #FFF;
     padding: 6rem 0 3rem 0;
 
@@ -137,19 +132,19 @@ font-family: 'Montserrat', sans-serif;
 
 .wrapper .story .story-title {
     width: 6.25rem;
-    line-height: 3rem;
+    line-height: 3.5rem;
 }
 
 .wrapper .story .story-title h3 {
     font-family: 'Montserrat', sans-serif;
     color: #4C3135;
-    font-size: 2rem;
+    font-size: 3rem;
 
 }
 
 .wrapper .story .story-title span {
-    color: #016BA5;
-    font-size: 4.5rem;
+    color: #00A4D6;
+    font-size: 5.5rem;
     font-weight: bold;
 }
 
@@ -159,16 +154,36 @@ font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     color: 6C6C6C;
     padding-bottom: 0.6rem;
+    margin-left: 15rem;
 }
 
 .wrapper .story .story-paragraph a {
-    color: #016BA5;
+    color: #00A4D6;
     font-weight: bold;
 
 }
 
 .wrapper .story .story-img img {
     width: 16rem;
+    margin: 0 6rem 0 2rem;
+}
+
+/*-----------------------------------*/
+
+.wrapper .dog-atention img {
+    position: absolute;
+    top: 35rem;
+    width: 25rem;
+}
+
+/*-----------------------------------*/
+
+.wrapper .dog-atention-detail .dog-atention-detail-img {
+    position: absolute;
+    width: 10rem;
+    transform: rotate(100deg);
+    top: 60rem;
+    left: 7rem;
 }
 
 /*-----------------------------------*/
@@ -196,9 +211,9 @@ font-family: 'Montserrat', sans-serif;
 
 .wrapper .food p {
     font-family: 'Montserrat', sans-serif;
-    width: 700px;
+    width: 43.75rem;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
 }
 
 /*---------------------------------*/
@@ -244,13 +259,13 @@ font-family: 'Montserrat', sans-serif;
     width: 25%;
     padding: 1rem;
     border: none;
-    background-color: #016BA5;
+    background-color: #00a4d6;
     color: #FFF;
     cursor: pointer;
 }
 
 .wrapper .description .description-itens button:hover {
-    background-color: #2d9bd6;
+    background-color: #016BA5;
 
 }
 
@@ -260,11 +275,11 @@ font-family: 'Montserrat', sans-serif;
 
 /*------------------------------------*/
 
-.wrapper .dog-jumping .dog-jumping-img{
+.wrapper .dog-jumping .dog-jumping-img {
     position: absolute;
-    width: 15rem;
+    width: 15.5rem;
     top: 104rem;
-left: 33rem;
+    left: 33rem;
 }
 
 /*------------------------------------*/
@@ -296,11 +311,23 @@ left: 33rem;
     font-size: 1.5rem;
 }
 
+/*------------------------------------*/
+
+.search-breeds span {
+    position: absolute;
+    top: 120rem;
+    left: 28rem;
+}
+
+.search-breeds span img {
+    width: 1.5rem;
+}
+
 .wrapper .search .search-breeds button {
     width: 50%;
     padding: 1rem;
     border: none;
-    background-color: #016BA5;
+    background-color: #00a4d6;
     color: #FFF;
     cursor: pointer;
 }
@@ -315,7 +342,8 @@ left: 33rem;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
     font-weight: 600;
-    color: #6C6C6C;;
+    color: #6C6C6C;
+    ;
     margin-bottom: 3rem;
     width: 28rem;
 }
@@ -324,7 +352,7 @@ left: 33rem;
     width: 35%;
     padding: 1rem;
     border: none;
-    background-color: #016BA5;
+    background-color: #00a4d6;
     color: #FFF;
     cursor: pointer;
 }
@@ -333,27 +361,33 @@ left: 33rem;
 
 .wrapper .products {
     display: flex;
-    justify-content: space-around;
-    padding: 5rem;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 6rem 5rem 5rem 5rem;
 }
 
 .wrapper .products .products-img img {
-    width: 10rem;
+    width: 20rem;
 }
 
 .wrapper .products .products-itens h2 {
     font-family: 'Amatic SC', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 .wrapper .products .products-itens p {
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    width: 650px;
 }
 
 .wrapper .products .products-itens button {
-    width: 25%;
+    width: 30%;
     padding: 1rem;
     border: none;
-    background-color: #016BA5;
+    background-color: #00a4d6;
     color: #FFF;
     cursor: pointer;
 }
@@ -362,18 +396,27 @@ left: 33rem;
 /*-----------------------*/
 
 .wrapper .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-image: url(../img/Layer.png);
     background-size: cover;
-    padding: 30rem;
     margin: 2rem;
+
+
 }
+
+
+.wrapper .footer .footer-dog-informations img {
+    width: 30rem;
+}
+
 
 .wrapper .footer .footer-social-media {
     display: flex;
-
 }
 
 .wrapper .footer .footer-social-media img {
-    width: 3rem;
-
+    width: 2rem;
+    margin: 0.3rem;
 }
