@@ -270,7 +270,6 @@
 
 .wrapper .description .description-itens button:hover {
     background-color: #016BA5;
-
 }
 
 .wrapper .description .description-image img {
@@ -334,6 +333,10 @@
     cursor: pointer;
 }
 
+.wrapper .search .search-breeds button:hover {
+    background-color: #016BA5;
+}
+
 .wrapper .search .search-dogs h2 {
     font-family: 'Amatic SC', cursive;
     font-size: 3rem;
@@ -356,6 +359,10 @@
     background-color: #00a4d6;
     color: #FFF;
     cursor: pointer;
+}
+
+.wrapper .search .search-dogs button:hover {
+    background-color: #016BA5;
 }
 
 /*------------------------------------*/
@@ -393,6 +400,9 @@
     cursor: pointer;
 }
 
+.wrapper .products .products-itens button:hover {
+    background-color: #016BA5;
+}
 
 /*-----------------------*/
 
@@ -443,6 +453,10 @@
     padding-right: 2rem;
     margin-bottom: 0.8rem;
  }
+
+ .wrapper .footer .footer-dog-informations .footer-dog-informations-ul a:hover {
+    color: #705e61;
+ } 
 
 .wrapper .footer .footer-dog-informations .footer-dog-informations-p  {
     padding-top: 1rem;
