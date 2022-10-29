@@ -131,7 +131,6 @@
     justify-content: flex-end;
     background-color: #FFF;
     padding: 6rem 0 3rem 0;
-
 }
 
 .wrapper .story .story-title {
@@ -143,7 +142,6 @@
     font-family: 'Montserrat', sans-serif;
     color: #4C3135;
     font-size: 3rem;
-
 }
 
 .wrapper .story .story-title span {
@@ -164,7 +162,6 @@
 .wrapper .story .story-paragraph a {
     color: #00A4D6;
     font-weight: bold;
-
 }
 
 .wrapper .story .story-img img {
