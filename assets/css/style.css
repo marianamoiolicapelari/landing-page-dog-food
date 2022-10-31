@@ -15,6 +15,7 @@
     flex-direction: column;
     background-image: url(../img/header-background.png);
     background-size: 100%;
+    position: relative;
 }
 
 .wrapper .main .main-navbar {
@@ -26,6 +27,7 @@
 
 .wrapper .main .main-navbar .main-navbar-logo .dog-food-img {
     width: 14rem;
+
 }
 
 .wrapper .main .main-navbar .main-navbar-menu ul {
@@ -46,82 +48,110 @@
 
 /*--------------------------------------*/
 
-.wrapper .food-dog .food-dog-img {
+.food-dog {
+    position: relative;
+    top: 5rem;
+
+}
+
+.food-dog img {
     width: 30rem;
-    position: absolute;
-    top: 10rem;
+    height: auto;
 }
 
 /*----------------------------------------*/
 
 .wrapper .main .main-information {
-    padding: 1rem 0 25.7rem 0;
     position: relative;
-    overflow: hidden;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.wrapper .main .main-information .main-information-slogan h1 {
-    position: absolute;
-    right: 32.5rem;
+.main-information-details {
+
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.wrapper .main .main-information .main-information-details-title h1 {
+    position: relative;
     font-family: 'Amatic SC', cursive;
     font-size: 2.5rem;
     line-height: 2.4rem;
     text-align: center;
     color: #4C3135;
     width: 17rem;
+    height: auto;
+
 }
 
-.wrapper .main .main-information .main-information-slogan span {
+.wrapper .main .main-information .main-information-details-title span {
     color: #016BA5;
     font-weight: bold;
 }
 
-.wrapper .main .main-information .main-information-slogan .main-information-slogan-idea-1 {
+.main-information-details-idea1 {
     position: absolute;
     transform: rotate(330deg);
-    right: 29rem;
-    top: 5rem;
+    top: 4rem;
 }
 
-.wrapper .main .main-information .main-information-slogan .main-information-slogan-idea-1 .main-information-slogan-img-1 {
-    width: 23.75rem;
+.main-information-details-idea1 img {
+    width: 25rem;
+    height: auto;
 }
 
-.wrapper .main .main-information .main-information-slogan .main-information-slogan-idea-2 {
+.main-information-details-idea-2 {
     position: absolute;
-    transform: rotate(360deg);
-    top: 9rem;
-    right: 24.5rem;
+    transform: rotate(355deg);
+    top: 8rem;
+
 }
 
-.wrapper .main .main-information .main-information-slogan .main-information-slogan-idea-2 .main-information-slogan-img-2 {
-    width: 31rem;
+.main-information-details-idea-2 img {
+    width: 33rem;
+    height: auto;
 }
 
-.wrapper .main .main-information .main-information-slogan .main-information-slogan-idea-3 {
+.main-information-details-idea-3 {
     position: absolute;
-    top: 11.5rem;
-    right: 33rem;
-    width: 16rem;
     transform: rotate(350deg);
+    width: 16rem;
+    height: auto;
+    text-align: center;
+    top: 11rem;
 }
 
-.wrapper .main .main-information .main-information-slogan .main-information-slogan-idea-3 h2 {
+.main-information-details-idea-3 img {
+    width: 3rem;
+    height: auto;
+}
+
+
+.main-information-details-idea-3 h2 {
     font-family: 'Amatic SC', cursive;
     color: #016BA5;
     font-size: 3.7rem;
-    text-align: center;
     font-weight: 700;
     line-height: 3.4rem;
+
 }
 
-.wrapper .main .main-information .main-information-dog {
-    position: absolute;
-    left: 62rem;
+.main-information-dog {
+    position: relative;
+    top: 0.9rem;
+    overflow: hidden;
 }
 
-.wrapper .main .main-information .main-information-dog .main-information-dog-img {
+.main-information-dog-img {
     width: 26rem;
+    height: auto;
 }
 
 /*--------------------------------------*/
@@ -131,7 +161,6 @@
     justify-content: flex-end;
     background-color: #FFF;
     padding: 6rem 0 3rem 0;
-
 }
 
 .wrapper .story .story-title {
@@ -143,7 +172,6 @@
     font-family: 'Montserrat', sans-serif;
     color: #4C3135;
     font-size: 3rem;
-
 }
 
 .wrapper .story .story-title span {
@@ -220,16 +248,6 @@
     margin-top: 2.5rem;
 }
 
-/*---------------------------------*/
-
-.detail-dog .detail-dog-img {
-    width: 5rem;
-    position: absolute;
-    top: 82.5rem;
-    left: 71rem;
-    transform: rotate(345deg);
-}
-
 /*----------------------------------------*/
 
 .wrapper .description {
@@ -272,8 +290,21 @@
     background-color: #016BA5;
 }
 
-.wrapper .description .description-image img {
+.description-image {
+    display: flex;
+}
+
+.wrapper .description .image-dog img {
     width: 20rem;
+}
+
+.detail-dog .detail-dog-img {
+    width: 5rem;
+    height: auto;
+    position: relative;
+    transform: rotate(345deg);
+    top: 1.5rem;
+    right: 4.5rem;
 }
 
 /*------------------------------------*/
@@ -408,8 +439,8 @@
 
 .wrapper .footer {
     display: flex;
-    justify-content:flex-end;
-    align-items:flex-end;
+    justify-content: flex-end;
+    align-items: flex-end;
     background-image: url(../img/Layer.png);
     background-size: cover;
     background-position: 0rem;
@@ -418,8 +449,6 @@
 }
 
 .wrapper .footer .footer-dog-informations {
-    display: flex;
-    flex-direction: column;
     color: #4C3135;
     font-weight: bold;
     margin: 0 2rem 2rem 0;
@@ -442,7 +471,7 @@
     left: 42.5rem;
 }
 
-.wrapper .footer .footer-dog-informations .footer-dog-informations-ul ul{
+.wrapper .footer .footer-dog-informations .footer-dog-informations-ul ul {
     display: flex;
     flex-wrap: wrap;
 }
@@ -452,20 +481,20 @@
     color: #4C3135;
     padding-right: 2rem;
     margin-bottom: 0.8rem;
- }
+}
 
- .wrapper .footer .footer-dog-informations .footer-dog-informations-ul a:hover {
+.wrapper .footer .footer-dog-informations .footer-dog-informations-ul a:hover {
     color: #705e61;
- } 
+}
 
-.wrapper .footer .footer-dog-informations .footer-dog-informations-p  {
+.wrapper .footer .footer-dog-informations .footer-dog-informations-p {
     padding-top: 1rem;
- }
+}
 
 
 .wrapper .footer .footer-social-media {
-   margin: 1.5rem 2rem;
- 
+    margin: 1.5rem 2rem;
+
 }
 
 .wrapper .footer .footer-social-media img {
