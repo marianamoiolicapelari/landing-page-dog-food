@@ -48,14 +48,15 @@
 
 /*--------------------------------------*/
 
-.food-dog {
+.wrapper .main .main-information .food-dog {
     position: relative;
-    top: 5rem;
-
+    top: 4rem;
+    width: 25rem;
+    height: auto;
 }
 
-.food-dog img {
-    width: 30rem;
+.wrapper .main .main-information .food-dog img {
+    width: 28rem;
     height: auto;
 }
 
@@ -71,8 +72,8 @@
 }
 
 .main-information-details {
-    width: 500px;
-    height: 400px;
+    width: 31.25rem;
+    height: 25rem;
     display: flex;
     justify-content: center;
     position: relative;
@@ -80,14 +81,13 @@
 
 .wrapper .main .main-information .main-information-details-title h1 {
     position: relative;
+    left: 11rem;
     font-family: 'Amatic SC', cursive;
     font-size: 2.5rem;
     line-height: 2.4rem;
     text-align: center;
     color: #4C3135;
     width: 17rem;
-    height: auto;
-
 }
 
 .wrapper .main .main-information .main-information-details-title span {
@@ -96,9 +96,10 @@
 }
 
 .main-information-details-idea1 {
-    position: absolute;
+    position: relative;
     transform: rotate(330deg);
     top: 4rem;
+    right: 8.2rem;
 }
 
 .main-information-details-idea1 img {
@@ -108,7 +109,7 @@
 
 .main-information-details-idea-2 {
     position: absolute;
-    transform: rotate(355deg);
+    transform: rotate(356deg);
     top: 8rem;
 
 }
@@ -139,13 +140,15 @@
     font-size: 3.7rem;
     font-weight: 700;
     line-height: 3.4rem;
-
+    position: relative;
+    right: 2rem;
 }
 
 .main-information-dog {
     position: relative;
-    top: 0.9rem;
+    top: 0.3rem;
     overflow: hidden;
+    width: 23.75rem;
 }
 
 .main-information-dog-img {
@@ -157,7 +160,7 @@
 
 .wrapper .story {
     display: flex;
-    justify-content: flex-end;
+    justify-content:space-around;
     background-color: #FFF;
     padding: 6rem 0 3rem 0;
 }
@@ -171,6 +174,7 @@
     font-family: 'Montserrat', sans-serif;
     color: #4C3135;
     font-size: 3rem;
+    margin-left: 11rem;
 }
 
 .wrapper .story .story-title span {
@@ -180,23 +184,25 @@
 }
 
 .wrapper .story .story-paragraph p {
-    width: 400px;
+    width: 25rem;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     color: 6C6C6C;
     padding-bottom: 0.6rem;
-    margin-left: 15rem;
+    margin-left: 20rem;
 }
 
 .wrapper .story .story-paragraph a {
     color: #00A4D6;
     font-weight: bold;
+}
 
+.wrapper .story .story-paragraph a:hover {
+    color: #016BA5;
 }
 
 .wrapper .story .story-img img {
-    width: 16rem;
-    margin: 0 6rem 0 2rem;
+    width: 17rem;
 }
 
 /*-----------------------------------*/
@@ -259,7 +265,7 @@
 .wrapper .description .description-itens {
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 37.5rem;
     color: #4C3135;
 }
 
@@ -416,7 +422,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     margin-bottom: 2rem;
-    width: 650px;
+    width: 40.65rem;
 }
 
 .wrapper .products .products-itens button {
@@ -467,7 +473,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-   
+
     width: 400px;
     height: auto;
     background-color: #705e61;
