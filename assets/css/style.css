@@ -32,6 +32,7 @@
 
 .wrapper .main .main-navbar .main-navbar-menu ul {
     display: inline-flex;
+
 }
 
 .wrapper .main .main-navbar .main-navbar-menu a {
@@ -70,7 +71,6 @@
 }
 
 .main-information-details {
-
     width: 500px;
     height: 400px;
     display: flex;
@@ -191,6 +191,7 @@
 .wrapper .story .story-paragraph a {
     color: #00A4D6;
     font-weight: bold;
+
 }
 
 .wrapper .story .story-img img {
@@ -307,20 +308,12 @@
 
 /*------------------------------------*/
 
-.wrapper .dog-jumping .dog-jumping-img {
-    position: absolute;
-    width: 15.5rem;
-    top: 104.3rem;
-    left: 33rem;
-}
-
-/*------------------------------------*/
-
 .wrapper .search {
     display: flex;
     justify-content: space-between;
     background-color: #eeeff0;
     padding: 5rem;
+    height: 360px;
 }
 
 .wrapper .search .search-breeds h2 {
@@ -364,6 +357,12 @@
 
 .wrapper .search .search-breeds button:hover {
     background-color: #016BA5;
+}
+
+.wrapper .search .dog-jumping .dog-jumping-img {
+    position: relative;
+    width: 15.5rem;
+    bottom: 160px;
 }
 
 .wrapper .search .search-dogs h2 {
@@ -437,48 +436,67 @@
 
 .wrapper .footer {
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
     background-image: url(../img/Layer.png);
     background-size: cover;
     background-position: 0rem;
     margin: 2rem;
+    width: auto;
     height: 31.25rem;
+
 }
 
 .wrapper .footer .footer-dog-informations {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: relative;
     color: #4C3135;
     font-weight: bold;
-    margin: 0 2rem 2rem 0;
     width: 25rem;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1.5rem;
+
+}
+
+.footer-dog-informations-test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+    width: 400px;
+    height: auto;
+    background-color: #705e61;
 }
 
 .wrapper .footer .footer-dog-informations .footer-dog-informations-img-idea img {
     width: 20rem;
-    position: absolute;
-    top: 166rem;
-    left: 40rem;
+    position: relative;
     transform: rotate(395deg);
+
 }
 
 .wrapper .footer .footer-dog-informations .footer-dog-informations-img-logo img {
     width: 13rem;
-    position: absolute;
-    top: 172rem;
-    left: 42.5rem;
+    position: relative;
+    top: 10rem;
 }
 
 .wrapper .footer .footer-dog-informations .footer-dog-informations-ul ul {
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .wrapper .footer .footer-dog-informations .footer-dog-informations-ul a {
     font-size: 1.2rem;
     color: #4C3135;
-    padding-right: 2rem;
-    margin-bottom: 0.8rem;
+
+
 }
 
 .wrapper .footer .footer-dog-informations .footer-dog-informations-ul a:hover {
@@ -486,16 +504,20 @@
 }
 
 .wrapper .footer .footer-dog-informations .footer-dog-informations-p {
-    padding-top: 1rem;
+    padding-top: 0.5rem;
 }
 
 
 .wrapper .footer .footer-social-media {
-    margin: 1.5rem 2rem;
-
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    width: 300px;
+    height: auto;
 }
 
-.wrapper .footer .footer-social-media img {
+.footer-social-media img {
     width: 1.5rem;
     margin-left: 0.5rem;
 }
