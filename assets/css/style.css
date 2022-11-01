@@ -160,7 +160,7 @@
 
 .wrapper .story {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     background-color: #FFF;
     padding: 6rem 0 3rem 0;
 }
@@ -447,70 +447,74 @@
     align-items: flex-end;
     background-image: url(../img/Layer.png);
     background-size: cover;
-    background-position: 0rem;
+    background-position: 100%;
     margin: 2rem;
     width: auto;
     height: 31.25rem;
-
+    position: relative;
 }
 
 .wrapper .footer .footer-dog-informations {
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
     position: relative;
     color: #4C3135;
     font-weight: bold;
     width: 25rem;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 1.5rem;
-
+    position: relative;
 }
 
-.footer-dog-informations-test {
+.wrapper .footer .footer-dog-informations-idea {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
 
-    width: 400px;
+    width: 500px;
     height: auto;
-    background-color: #705e61;
+
 }
 
-.wrapper .footer .footer-dog-informations .footer-dog-informations-img-idea img {
-    width: 20rem;
+.wrapper .footer .footer-dog-informations-idea .footer-dog-informations-img-idea img {
+    width: 22.5rem;
     position: relative;
     transform: rotate(395deg);
 
 }
 
-.wrapper .footer .footer-dog-informations .footer-dog-informations-img-logo img {
+.wrapper .footer .footer-dog-informations-idea .footer-dog-informations-img-logo img {
     width: 13rem;
     position: relative;
-    top: 10rem;
+    top: 11rem;
+    right: 1rem;
 }
 
-.wrapper .footer .footer-dog-informations .footer-dog-informations-ul ul {
+
+.wrapper .footer .footer-dog-informations-idea .footer-dog-informations-ul ul {
     display: flex;
     flex-wrap: wrap;
 
 }
 
-.wrapper .footer .footer-dog-informations .footer-dog-informations-ul a {
-    font-size: 1.2rem;
+.wrapper .footer .footer-dog-informations-idea .footer-dog-informations-ul a {
+    font-size: 1rem;
     color: #4C3135;
-
+    padding: 0 0 0.6rem 4rem;
 
 }
 
-.wrapper .footer .footer-dog-informations .footer-dog-informations-ul a:hover {
+.wrapper .footer .footer-dog-informations-idea .footer-dog-informations-ul a:hover {
     color: #705e61;
 }
 
-.wrapper .footer .footer-dog-informations .footer-dog-informations-p {
+.wrapper .footer .footer-dog-informations-idea .footer-dog-informations-p {
+    font-size: 0.8rem;
     padding-top: 0.5rem;
+    padding-left: 4rem;
 }
 
 
@@ -518,12 +522,12 @@
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    margin-right: 2rem;
-    width: 300px;
+    margin: 0 2rem 1.5rem 0;
+    width: 250px;
     height: auto;
 }
 
-.footer-social-media img {
+.wrapper .footer .footer-social-media img {
     width: 1.5rem;
     margin-left: 0.5rem;
 }
