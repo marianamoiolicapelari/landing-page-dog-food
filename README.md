@@ -15,7 +15,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 Esse projeto foi elaborado para desktop. </br>
 Para acessar basta clicar no link abaixo:
 
-[https://pregnancy-mmc.netlify.app/]
+https://landing-page-dog-food.netlify.app
 
 ## 📝 Licença
 
