@@ -27,12 +27,10 @@
 
 .wrapper .main .main-navbar .main-navbar-logo .dog-food-img {
     width: 14rem;
-
 }
 
 .wrapper .main .main-navbar .main-navbar-menu ul {
     display: inline-flex;
-
 }
 
 .wrapper .main .main-navbar .main-navbar-menu a {
@@ -111,7 +109,6 @@
     position: absolute;
     transform: rotate(356deg);
     top: 8rem;
-
 }
 
 .main-information-details-idea-2 img {
