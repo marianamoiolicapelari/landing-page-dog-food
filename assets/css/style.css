@@ -334,18 +334,20 @@
     background-color: transparent;
     margin-bottom: 3rem;
     height: 2.5rem;
-    padding-left: 1rem;
     border-bottom: solid 1px #6C6C6C;
+    padding: 1rem;
 }
 
 .wrapper .search .search-breeds input::placeholder {
     font-size: 1.5rem;
+    
 }
 
 .wrapper .search .search-breeds span {
     position: absolute;
-    top: 120rem;
+    top: 120.5rem;
     left: 28rem;
+    
 }
 
 .wrapper .search .search-breeds span img {
