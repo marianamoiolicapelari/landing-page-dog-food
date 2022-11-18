@@ -337,14 +337,12 @@
 
 .wrapper .search .search-breeds input::placeholder {
     font-size: 1.5rem;
-    
 }
 
 .wrapper .search .search-breeds span {
     position: absolute;
     top: 120.5rem;
     left: 28rem;
-    
 }
 
 .wrapper .search .search-breeds span img {

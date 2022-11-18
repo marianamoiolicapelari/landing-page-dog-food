@@ -1,7 +1,7 @@
 # Landing Page Dog Food 
 
 ## 💻 Sobre o Projeto
-Landing page desenvolvida com HTML e CSS. 
+Landing page desenvolvida com HTML e CSS, coom uso de Flexbox para posisionar os componentes da página.
 
 ## 🛠 Tecnologias
 
