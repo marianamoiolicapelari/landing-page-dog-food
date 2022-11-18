@@ -3,6 +3,10 @@
 ## 💻 Sobre o Projeto
 Landing page desenvolvida com HTML e CSS, coom uso de Flexbox para posisionar os componentes da página.
 
+## 🎨 Layout
+
+![image](https://github.com/marianamoiolicapelari/landing-page-dog-food/blob/main/assets/img/layout.jpg)
+
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
